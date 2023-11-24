@@ -1,0 +1,29 @@
+POST http://localhost:3000/livros
+content-type: application/json
+
+{
+    "titulo": "oi",
+    "autor": "oi"
+}
+
+###
+
+GET http://localhost:3000/livros
+
+###
+
+GET http://localhost:3000/livros/
+
+###
+
+PUT http://localhost:3000/livros/3
+content-type: application/json
+
+{
+    "titulo": "AI",
+    "autor": "AI"
+}
+
+###
+
+DELETE http://localhost:3000/livros/3
